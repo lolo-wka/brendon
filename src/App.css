@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+img{
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 black;
+  margin-left: 15px;
+  position: relative;
+}
+
+.cards{
+  display: flex;
+  margin: 25px 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.search{
+  height: 45px;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 0 3px 0 rgb(137, 137, 137);
+  margin-bottom: 15px;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity button{
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.quantity p {
+  font-size: larger;
+}
+
+.night{
+  background-color: black;
+  color:  white;
+}
+
+.night .card{
+  background-color: black;
+  color: white;
+  border-radius: 0 0 3px 0 white;
+}

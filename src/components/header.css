@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(154, 168, 111);
+    padding: 15px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+ul{
+    display: flex;
+    margin-left: 1100px;
+    
+}
+
+li{
+    margin-left: 25px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    color: white;
+}
